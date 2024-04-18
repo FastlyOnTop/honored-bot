@@ -2,8 +2,8 @@ const { MessageEmbed } = require('discord.js')
 const { displayCommandInfo } = require('/root/rewrite/Utils/command.js');
 const SpotifyWebApi = require('spotify-web-api-node');
 const SpotifyClient = new SpotifyWebApi({
-    clientId: '90595927739c497889bb248dd3aa422d',
-    clientSecret: '5f3629f827b74218af14627dac0daed7'
+    clientId: '',
+    clientSecret: ''
 });
 
 module.exports = {
